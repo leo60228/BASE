@@ -48,6 +48,7 @@ public class ProvidedParts {
         registerPart(new PartBuilder(materialSystem).setName("Dust").setPartType(item));
         registerPart(new PartBuilder(materialSystem).setName("Plate").setPartType(item));
         registerPart(new PartBuilder(materialSystem).setName("Nugget").setPartType(item));
+        registerPart(new PartBuilder(materialSystem).setName("Trace").setPartType(item));
 
         List<PartDataPiece> blockDataPieces = Lists.newArrayList();
         blockDataPieces.add(new PartDataPiece("hardness", false));
@@ -62,6 +63,7 @@ public class ProvidedParts {
         oreDataPieces.add(new PartDataPiece("dropType", false));
         registerPart(new PartBuilder(materialSystem).setName("Ore").setPartType(ore).setData(oreDataPieces));
         registerPart(new PartBuilder(materialSystem).setName("Poor Ore").setPartType(ore).setData(oreDataPieces));
+        registerPart(new PartBuilder(materialSystem).setName("Trace Ore").setPartType(ore).setData(oreDataPieces));
         registerPart(new PartBuilder(materialSystem).setName("Dense Ore").setPartType(ore).setData(oreDataPieces));
 
         List<PartDataPiece> fluidDataPieces = Lists.newArrayList();

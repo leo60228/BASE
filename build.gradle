@@ -54,7 +54,6 @@ minecraft {
 
 dependencies {
     deobfCompile "mezz.jei:jei_${minecraft_version}:${jei_version}"
-    deobfCompile "mcjty.theoneprobe:TheOneProbe:1.1x-${top_version}"
     deobfCompile "com.github.mcjty:compatlayer:${minecraft_version}-${compat_version}"
     deobfCompile "net.darkhax.tesla:Tesla:${tesla_version}"
     deobfCompile "slimeknights:TConstruct:${minecraft_version}-${tinkers_version}"

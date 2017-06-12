@@ -4,6 +4,7 @@ error.base.null_part=Null Part
 base.part.gear=Gear
 base.part.plate=Plate
 base.part.dust=Dust
+base.part.trace=Trace
 base.part.ingot=Ingot
 base.part.nugget=Nugget
 base.part.beam=Beam
@@ -11,6 +12,7 @@ base.part.bolt=Bolt
 base.part.block=Block
 base.part.ore=Ore
 base.part.poor_ore=Poor Ore
+base.part.trace_ore=Trace Ore
 base.part.dense_ore=Dense Ore
 
 item.wrench.name=Wrench
